@@ -42,3 +42,4 @@ _ReSharper*/
 /packages
 Tools/Fake
 .fake
+artifacts

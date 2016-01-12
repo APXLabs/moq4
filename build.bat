@@ -1,4 +1,4 @@
 @echo off
 cls
-"tools\NuGet.exe" "Install" "FAKE" "-OutputDirectory" "tools" "-ExcludeVersion"
-"tools\FAKE\tools\Fake.exe" build.fsx
+"Tools\NuGet.exe" "Install" "FAKE" "-OutputDirectory" "Tools" "-ExcludeVersion"
+"Tools\FAKE\tools\Fake.exe" build.fsx
