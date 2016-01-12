@@ -12,7 +12,7 @@ let androidProject = @"./Source.Android/Moq.Android.csproj"
 let androidNuspec = @"./Moq.Android.nuspec"
 let projects =  [androidProject]
 
-RestorePackages() 
+//RestorePackages() 
 
 // Targets
 
