@@ -28,7 +28,7 @@
     <DocumentationFile>bin\$(Configuration)\$(AssemblyName).xml</DocumentationFile>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyfCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -43,7 +43,8 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <DefineConstants>$(DefineConstants);TRACE;CODE_ANALYSIS</DefineConstants>
-    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <!-- Disabling code analysis due to  Xamarin bug.  See: https://bugzilla.xamarin.com/show_bug.cgi?id=36183 -->
+    <RunCodeAnalysis>false</RunCodeAnalysis>
     <MergeReferences>true</MergeReferences>
     <OutputPath>bin\Release\</OutputPath>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>

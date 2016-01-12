@@ -84,7 +84,7 @@ namespace Moq
 		{
 		}
 
-		/// <include file='Mock.Generic.xdoc' path='docs/doc[@for="Mock{T}.ctor(object[])"]/*'/>
+		
 		[SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
 		public Mock(params object[] args)
 			: this(MockBehavior.Default, args)
