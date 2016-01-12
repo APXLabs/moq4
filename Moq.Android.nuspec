@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>Moq</id>
+    <version>@build.number@</version>
+    <title>Moq: an enjoyable mocking library</title>
+    <authors>Daniel Cazzulino, kzu</authors>
+    <owners>Daniel Cazzulino, Clarius Labs, kzu</owners>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+    <projectUrl>http://www.moqthis.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Moq is the most popular and friendly mocking framework for .NET</description>
+    <tags>moq tdd mocking mocks unittesting agile unittest</tags>
+    @dependencies@
+    @references@
+  </metadata>
+  <files>
+    <file src="Moq.Android.dll" target="lib" />
+    <file src="Moq.Android.xml" target="lib" />
+    <file src="Moq.Android.pdb" target="lib" />
+  </files>
+</package>
