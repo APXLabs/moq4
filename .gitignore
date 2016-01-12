@@ -43,3 +43,4 @@ _ReSharper*/
 Tools/Fake
 .fake
 artifacts
+!Tools/NuGet.exe
